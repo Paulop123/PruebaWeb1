@@ -1,0 +1,180 @@
+
+*{box-sizing: border-box;}
+
+html, body{
+
+    height: 100%;
+}
+
+/*Selector del cuerpo principal*/
+body{
+  
+    background-color:rgb(255, 255, 255);
+    
+    /*Contenedor flexible*/
+    display: flex;
+    justify-content: center;/*eje y*/
+    align-items: center;/*eje X*/
+  }
+
+
+  /*Selector de la barra de la cabecera*/
+  mat-toolbar{
+
+    background-color: rgba(10, 123, 160, 0.839);
+    border-bottom: solid 2px;
+    
+  }
+
+  /*Icono del boton de la cabecera*/
+  .icon-button{
+
+    margin: 0 auto;
+    margin-right: 12%;
+  }
+
+  .icon-button button{
+
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+
+  /*Tiitulo del banner*/
+  .banner{
+
+    margin-left: 40%;
+    font-size: 2.5rem;
+  }
+
+
+
+  /*Titulo del login*/
+  .cabecera{
+
+    text-align: center;
+    color: white;
+    margin-bottom: 10%;
+}
+
+    .cabecera h1{
+
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+
+  /*Selector del main*/
+  .principal{
+
+    width: 100%;
+    border-radius: 15px;
+    background-color:  rgba(7, 96, 50, 0.587);
+    padding: 1rem;
+    max-width: 60%;/*Ancho maximo del login*/
+    min-width: 40%;
+    box-shadow: 2px 2px 3px black;
+  }
+
+
+  /*Zona central*/
+  .central{
+
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .central label{
+
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+
+  .central input{
+
+    border-radius: 5px;
+    width: 100%;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(34, 31, 31, 0.6);
+    background-color: transparent;
+  }
+
+
+  /*Zona de botones*/
+  .botones{
+
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 13px;
+    margin-bottom: 30px;
+  }
+
+
+  .botones #boton1{
+
+    margin-right: 30%;
+    border-radius: 5px;
+    padding: 0.2rem;
+    background-color: lightgray;
+    font-weight: bold;
+  }
+
+  .botones #boton2{
+
+    border-radius: 5px;
+    padding: 0.2rem;
+    background-color: lightgray;
+    font-weight: bold;
+  }
+
+  /*
+  *Selectores de elmento que cambian el color del boton
+  *al colocarl el puntero encima
+  */
+  .botones #boton1:hover{
+
+    border-radius: 5px;
+    padding: 0.2rem;
+    background-color: orange;
+  }
+
+  .botones #boton2:hover{
+
+    border-radius: 5px;
+    padding: 0.2rem;
+    background-color: orange;
+  }
+
+  /*Zona del pie de pagina*/
+  .piePagina{
+
+    text-align: center;
+  }
+
+  /*Selector del pie de pagina del login*/
+  .piePagina a{
+
+    text-decoration: none;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
